@@ -5,71 +5,94 @@ import * as Engine from './quiz-engine.js';
 import * as UI from './ui.js';
 import * as Storage from './storage.js';
 
-// Rutas de búsqueda del archivo de preguntas
+// Rutas de búsqueda para el banco de preguntas
 const DATA_PATHS = [
   './data/preguntas.json',
+  'data/preguntas.json',
   './preguntas_simulador_examen.json'
 ];
 
 async function loadQuestionsData() {
   for (const path of DATA_PATHS) {
     try {
+      console.log(`Intentando cargar preguntas desde: ${path}`);
       const response = await fetch(path);
       if (response.ok) {
         const data = await response.json();
-        return data.micro_tests;
+        console.log(`Datos cargados con éxito desde: ${path}`, data);
+        if (data.micro_tests && data.micro_tests.length > 0) {
+          return data.micro_tests;
+        }
+      } else {
+        console.warn(`Respuesta no satisfactoria para ${path}: ${response.status} ${response.statusText}`);
       }
-    } catch (_) {
-      // Intenta la siguiente ruta si falla
+    } catch (err) {
+      console.warn(`Fallo al intentar acceder a ${path}:`, err);
     }
   }
-  throw new Error('No se pudo encontrar el archivo de preguntas en las rutas especificadas.');
+  throw new Error('No fue posible localizar data/preguntas.json en las rutas relativas especificadas.');
 }
 
 function setupEventListeners() {
-  // Manejo de clics en las opciones
+  // Selección de respuestas dentro del cuestionario
   const optionsContainer = document.getElementById('options-container');
-  optionsContainer.addEventListener('click', (e) => {
-    const btn = e.target.closest('.option-btn');
-    if (!btn || State.isCurrentChecked()) return;
+  if (optionsContainer) {
+    optionsContainer.addEventListener('click', (e) => {
+      const btn = e.target.closest('.option-btn');
+      if (!btn || State.isCurrentChecked()) return;
 
-    const index = parseInt(btn.dataset.index, 10);
-    const question = State.getCurrentQuestion();
-    State.toggleOptionSelection(index, question.tipo);
-    UI.updateOptionSelections(State.getSelectedOptions());
-  });
+      const index = parseInt(btn.dataset.index, 10);
+      const question = State.getCurrentQuestion();
+      State.toggleOptionSelection(index, question.tipo);
+      UI.updateOptionSelections(State.getSelectedOptions());
+    });
+  }
 
-  // Botón principal (Comprobar o Siguiente)
+  // Botón principal de acción (Comprobar / Siguiente)
   const actionBtn = document.getElementById('btn-submit-action');
-  actionBtn.addEventListener('click', () => {
-    if (!State.isCurrentChecked()) {
-      handleCheckAnswer();
-    } else {
-      handleNextStep();
-    }
-  });
+  if (actionBtn) {
+    actionBtn.addEventListener('click', () => {
+      if (!State.isCurrentChecked()) {
+        handleCheckAnswer();
+      } else {
+        handleNextStep();
+      }
+    });
+  }
 
-  // Salir del test actual
-  document.getElementById('btn-exit-quiz').addEventListener('click', () => {
-    if (confirm('¿Deseas volver al menú principal? Se perderá el avance actual de este test.')) {
+  // Botón para salir al menú principal
+  const exitBtn = document.getElementById('btn-exit-quiz');
+  if (exitBtn) {
+    exitBtn.addEventListener('click', () => {
+      if (confirm('¿Deseas volver al menú principal? Se perderá el avance actual de este test.')) {
+        UI.showScreen('home');
+      }
+    });
+  }
+
+  // Reintentar test desde la pantalla de resultados
+  const retryBtn = document.getElementById('btn-retry-test');
+  if (retryBtn) {
+    retryBtn.addEventListener('click', () => {
+      startSelectedTest(State.getCurrentTestId());
+    });
+  }
+
+  // Volver al listado desde resultados
+  const backHomeBtn = document.getElementById('btn-back-home');
+  if (backHomeBtn) {
+    backHomeBtn.addEventListener('click', () => {
       UI.showScreen('home');
-    }
-  });
-
-  // Botón reintentar desde resultados
-  document.getElementById('btn-retry-test').addEventListener('click', () => {
-    startSelectedTest(State.getCurrentTestId());
-  });
-
-  // Botón volver a inicio desde resultados
-  document.getElementById('btn-back-home').addEventListener('click', () => {
-    UI.showScreen('home');
-  });
+    });
+  }
 }
 
 function startSelectedTest(testId) {
   const test = State.startTest(testId);
-  document.getElementById('quiz-test-title').textContent = test.titulo;
+  const titleBadge = document.getElementById('quiz-test-title');
+  if (titleBadge) {
+    titleBadge.textContent = test.titulo;
+  }
   UI.showScreen('quiz');
   renderCurrentQuestion();
 }
@@ -114,16 +137,24 @@ function finishTest() {
   UI.showScreen('results');
 }
 
-// Inicialización de la aplicación al cargar la página
+// Inicialización de la aplicación
 async function init() {
+  console.log('Iniciando simulador...');
   setupEventListeners();
   try {
     const tests = await loadQuestionsData();
+    console.log(`Se procesaron ${tests.length} micro tests.`);
     State.setTestsData(tests);
     UI.renderTestList(tests, (testId) => startSelectedTest(testId));
   } catch (error) {
+    console.error('Error durante la inicialización:', error);
     alert('Error al inicializar las preguntas: ' + error.message);
   }
 }
 
-document.addEventListener('DOMContentLoaded', init);
+// Ejecución segura: si el DOM ya cargó, arranca al instante sin esperar el evento
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
