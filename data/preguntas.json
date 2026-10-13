@@ -1,0 +1,1269 @@
+{
+  "titulo_examen": "Simulador de Aprendizaje Profundo",
+  "micro_tests": [
+    {
+      "id": "micro_test_1",
+      "titulo": "Micro test 1",
+      "preguntas": [
+        {
+          "id": "1_1",
+          "texto": "El aprendizaje profundo es una parte de la inteligencia artificial:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_2",
+          "texto": "En este tema vamos a revisar la historia y los casos de éxito del aprendizaje profundo como punto de partida de la asignatura:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_3",
+          "texto": "En este tema no revisaremos la fundamentación matemática de las neuronas y de las redes neuronales, ya que no es importante:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "1_4",
+          "texto": "El aprendizaje profundo (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Es una técnica dentro del aprendizaje automático.", "correcta": true },
+            { "texto": "Es un área de la inteligencia artificial.", "correcta": true },
+            { "texto": "Es un sinónimo exacto de bases de datos relacionales.", "correcta": false },
+            { "texto": "Se basa en entender conceptos cada vez más complejos.", "correcta": true },
+            { "texto": "No requiere de datos previos para establecer inferencias.", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_5",
+          "texto": "En el aprendizaje automático, los sistemas de inteligencia artificial obtienen su propio conocimiento mediante la extracción de patrones a partir de la experiencia, dada por datos:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_6",
+          "texto": "¿Qué factores pueden explicar el concepto «profundo» en el término de aprendizaje profundo? (Marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "La necesidad de tener bases de datos con gran profundidad de almacenamiento en disco.", "correcta": false },
+            { "texto": "Las redes neuronales se hacen profundas con la introducción de múltiples capas.", "correcta": true },
+            { "texto": "Las redes neuronales pueden aprender jerarquías complejas de conceptos.", "correcta": true },
+            { "texto": "Se refiere a que los algoritmos son inescrutables para el razonamiento humano.", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_7",
+          "texto": "En un problema de clasificación de personas a partir de imágenes con aprendizaje profundo, ¿cuál es la entrada que recibiría la red neuronal?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Metadatos extraídos de la cámara que capturó la imagen.", "correcta": false },
+            { "texto": "Una descripción en texto de la anatomía de la persona.", "correcta": false },
+            { "texto": "Los píxeles de la imagen.", "correcta": true },
+            { "texto": "El peso y la altura de la persona clasificada.", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_8",
+          "texto": "El deep learning (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Ha tenido varios nombres a lo largo de la historia.", "correcta": true },
+            { "texto": "Fue inventado recientemente con la llegada de las GPUs modernas.", "correcta": false },
+            { "texto": "Se originó como una rama matemática pura sin relación con la biología.", "correcta": false },
+            { "texto": "La inspiración biológica ha sido un punto importante en la historia del deep learning.", "correcta": true }
+          ]
+        },
+        {
+          "id": "1_10",
+          "texto": "¿Qué cantidad de datos es necesaria para entrenar con éxito una red neuronal profunda?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Exactamente un millón de registros o imágenes.", "correcta": false },
+            { "texto": "Menos de 1000 registros para evitar el sobreajuste (overfitting).", "correcta": false },
+            { "texto": "La cantidad máxima que pueda almacenar la memoria RAM del sistema.", "correcta": false },
+            { "texto": "La cantidad depende del problema a tratar.", "correcta": true }
+          ]
+        },
+        {
+          "id": "1_11",
+          "texto": "Los factores del éxito del deep learning son (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "La disminución en los costos de almacenamiento en la nube.", "correcta": false },
+            { "texto": "Aumento de la cantidad de datos disponibles.", "correcta": true },
+            { "texto": "Mejora de la capacidad de cómputo.", "correcta": true },
+            { "texto": "La invención de lenguajes de programación de bajo nivel.", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_12",
+          "texto": "¿Cuáles son algunas de las aplicaciones del deep learning? (Marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Visión por computador.", "correcta": true },
+            { "texto": "Traducción automática.", "correcta": true },
+            { "texto": "Agentes que aprenden a jugar a juegos.", "correcta": true },
+            { "texto": "Reconocer el habla.", "correcta": true },
+            { "texto": "Reparación física de hardware de laboratorio.", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_13",
+          "texto": "Señala las afirmaciones correctas:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "El aprendizaje profundo es una réplica exacta a nivel celular del cerebro humano.", "correcta": false },
+            { "texto": "El aprendizaje profundo está inspirado en el funcionamiento del cerebro, pero las similitudes entre los algoritmos de deep learning y el cerebro acaban pronto.", "correcta": true },
+            { "texto": "No existe ningún tipo de inspiración biológica en el desarrollo del aprendizaje profundo.", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_14",
+          "texto": "En una red neuronal, si una neurona tiene 5 inputs, ¿cuántos parámetros la modelan?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "5.", "correcta": false },
+            { "texto": "6.", "correcta": true },
+            { "texto": "10.", "correcta": false },
+            { "texto": "1.", "correcta": false }
+          ]
+        },
+        {
+          "id": "1_15",
+          "texto": "Marca todas las respuestas correctas acerca del funcionamiento de una red neuronal:",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "La input layer realiza las operaciones iniciales del cálculo de derivadas.", "correcta": false },
+            { "texto": "La input layer es una representación de los datos de entrada y no conlleva cálculos.", "correcta": true },
+            { "texto": "Las neuronas se activan con un valor definido por la función de activación.", "correcta": true },
+            { "texto": "En una feed-forward network la información siempre fluye hacia delante.", "correcta": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_2",
+      "titulo": "Micro test 2",
+      "preguntas": [
+        {
+          "id": "2_1",
+          "texto": "En una operación suma q = x + y + z, si el gradiente propagado de salida es 5:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "El gradiente se divide entre las tres variables resultando en 1.66.", "correcta": false },
+            { "texto": "El gradiente es 0 debido a que es una suma lineal.", "correcta": false },
+            { "texto": "El gradiente es 5 en todas las variables.", "correcta": true },
+            { "texto": "El gradiente dependerá de los pesos asignados a cada variable.", "correcta": false }
+          ]
+        },
+        {
+          "id": "2_2",
+          "texto": "El elemento matemático que nos permite cuantificar el error en las redes neuronales es la función de coste:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "2_3",
+          "texto": "El entrenamiento de una red neuronal es un problema complejo de optimización matemática a partir de la función de coste:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "2_4",
+          "texto": "En el entrenamiento de las redes neuronales intervienen los algoritmos del descenso del gradiente estocástico y el algoritmo de Backpropagation:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "2_5",
+          "texto": "Seleccionar un motivo por el que en SGD utilizamos batches aleatorias hasta agotar todos los training examples del dataset (completar una epoch), en vez de utilizar siempre elementos al azar:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "El uso de elementos puramente al azar incrementa la entropía de forma que la red neuronal converge al instante.", "correcta": false },
+            { "texto": "SGD no utiliza batches, procesa todo el dataset al mismo tiempo.", "correcta": false },
+            { "texto": "Todos los training examples del dataset son importantes y poseen una variabilidad que la red neuronal tiene que saber explicar. Al forzar a la red a entrenar con todos ellos, permitimos que todos estos datos sean tomados en cuenta.", "correcta": true }
+          ]
+        },
+        {
+          "id": "2_6",
+          "texto": "Para aplicar gradient descent, la función de coste tiene que ser:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Diferenciable.", "correcta": true },
+            { "texto": "Lineal.", "correcta": false },
+            { "texto": "Constante.", "correcta": false },
+            { "texto": "Discreta.", "correcta": false }
+          ]
+        },
+        {
+          "id": "2_7",
+          "texto": "Si aplicamos un valor demasiado grande de learning rate (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "La red neuronal aprendería y lo haría de manera más rápida.", "correcta": true },
+            { "texto": "La red neuronal requiere automáticamente el uso de más núcleos de procesamiento.", "correcta": false },
+            { "texto": "El modelo se vuelve invulnerable al problema del desvanecimiento del gradiente.", "correcta": false },
+            { "texto": "La red neuronal podría no aprender. La aproximación local de la derivada deja de tener efecto y podríamos overshoot a un punto lejano.", "correcta": true }
+          ]
+        },
+        {
+          "id": "2_8",
+          "texto": "Si un dataset tiene 10,000 puntos y utilizamos batches de 10 examples para entrenar una red neuronal:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Una epoch o época de entrenamiento consiste en 10 steps.", "correcta": false },
+            { "texto": "Una epoch o época de entrenamiento consiste en 100 steps.", "correcta": false },
+            { "texto": "Una epoch o época de entrenamiento consiste en 1000 steps.", "correcta": true },
+            { "texto": "Una epoch o época de entrenamiento consiste en 10,000 steps.", "correcta": false }
+          ]
+        },
+        {
+          "id": "2_9",
+          "texto": "Las funciones de coste o loss functions (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Definen un valor de error que queremos minimizar.", "correcta": true },
+            { "texto": "Se utilizan exclusivamente en la fase de inferencia del modelo.", "correcta": false },
+            { "texto": "Son fijas y no varían sin importar el tipo de problema a resolver.", "correcta": false },
+            { "texto": "Implican un objetivo distinto a la hora de entrenar una red neuronal y, por tanto, son una parte importante a definir en un problema de machine learning.", "correcta": true }
+          ]
+        },
+        {
+          "id": "2_10",
+          "texto": "Durante el algoritmo de backpropagation:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Se descartan todos los valores intermedios para ahorrar memoria RAM.", "correcta": false },
+            { "texto": "Guardamos los valores de salida de cada nodo, ya que son necesarios para el cálculo de gradientes durante el backward pass.", "correcta": true },
+            { "texto": "Solo se requiere el error final para actualizar los pesos de la última capa.", "correcta": false },
+            { "texto": "Se invierte la función de activación en todos los nodos de la red.", "correcta": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_3",
+      "titulo": "Micro test 3",
+      "preguntas": [
+        {
+          "id": "3_1",
+          "texto": "Utilizar frameworks de aprendizaje para el diseño y entrenamiento de las redes neuronales nos da muchas ventajas y es muy importante:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "3_2",
+          "texto": "Tensorflow no utiliza internamente grafos de computación:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "3_3",
+          "texto": "La principal librería en el diseño y entrenamiento de redes neuronales es Python:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "3_4",
+          "texto": "Un framework es una librería o conjunto de librerías de programación que facilita el desarrollo e implementación eficiente de redes neuronales o de algoritmos de machine learning en general:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "3_5",
+          "texto": "Los frameworks permiten el entrenamiento en GPU, pero hacen más difícil el entrenamiento de las redes neuronales:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "3_6",
+          "texto": "Los frameworks emplean código altamente optimizado, utilizando librerías numéricas de alto rendimiento que permiten aprovechar las instrucciones especiales y capacidades multihilo de los procesadores:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "3_7",
+          "texto": "Los grafos de computación (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Facilitan el cálculo de derivadas automáticas.", "correcta": true },
+            { "texto": "Hacen imposible el uso de hardware especializado como TPUs.", "correcta": false },
+            { "texto": "Facilitan la ejecución de subtareas en entornos distribuidos.", "correcta": true },
+            { "texto": "Obligan a ejecutar todas las operaciones secuencialmente en un solo hilo.", "correcta": false }
+          ]
+        },
+        {
+          "id": "3_8",
+          "texto": "Selecciona todas las sentencias verdaderas sobre grafos de computación estáticos y dinámicos:",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Un grafo de computación estático necesita ser definido antes de evaluarlo con datos.", "correcta": true },
+            { "texto": "Los grafos dinámicos son siempre computacionalmente más lentos sin excepción.", "correcta": false },
+            { "texto": "Los grafos de computación dinámicos permiten la utilización de sentencias de control como IF/ELSE de manera sencilla.", "correcta": true },
+            { "texto": "Un grafo estático puede modificar su estructura de nodos durante el entrenamiento sin recompilar.", "correcta": false }
+          ]
+        },
+        {
+          "id": "3_9",
+          "texto": "TensorFlow (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Tiene una interfaz en Python, pero los cálculos numéricos se hacen en C++.", "correcta": true },
+            { "texto": "Utiliza exclusivamente código interpretado de Python en todas sus capas.", "correcta": false },
+            { "texto": "Utiliza C++ para los cálculos numéricos en vez de Python por su mayor velocidad de cómputo.", "correcta": true }
+          ]
+        },
+        {
+          "id": "3_10",
+          "texto": "El framework Theano fue el primero en introducir los grafos de computación:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "3_11",
+          "texto": "Pytorch utiliza grafos de computación dinámicos:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "3_12",
+          "texto": "Las empresas Microsoft (CNTK) y Amazon (MXNET) facilitan la ejecución de sus frameworks en sus ecosistemas en la nube:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_4",
+      "titulo": "Micro test 4",
+      "preguntas": [
+        {
+          "id": "4_1",
+          "texto": "Durante el diseño de una red neuronal, personalizar las unidades de activación y la inicialización de parámetros nos va a dar muchas ventajas:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "4_2",
+          "texto": "El algoritmo del descenso del gradiente estocástico no tiene variantes porque funciona perfectamente:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_3",
+          "texto": "El overfitting y la regularización son dos problemas de aprendizaje muy típicos en los entrenamientos de las redes neuronales:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_4",
+          "texto": "¿Cuál de las siguientes es una razón por la que las unidades ReLU tienen menos tendencia a «morir» cuando se aplican learning rates pequeñas?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Las unidades ReLU siempre se inicializan con valores positivos evitando cualquier decaimiento.", "correcta": false },
+            { "texto": "La función ReLU ignora por completo el learning rate.", "correcta": false },
+            { "texto": "Un valor de learning rate grande lleva a cambios mayores en los parámetros de la red, lo que puede impedir que la unidad ReLU vuelva a salir de su régimen negativo.", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_5",
+          "texto": "¿Cuáles de las siguientes son problemas relacionados con la función de activación sigmoid? (Marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Las unidades sigmoid saturadas «matan» los gradientes.", "correcta": true },
+            { "texto": "La salida de sigmoid no está centrada en 0.", "correcta": true },
+            { "texto": "No es una función matemáticamente diferenciable en todo su dominio.", "correcta": false },
+            { "texto": "Implica el cálculo de una función exponencial.", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_6",
+          "texto": "¿Cuáles de las siguientes son ventajas de usar la función de activación Relu? (Marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "No satura en el régimen positivo (x>0). La unidad no mata gradientes en este régimen.", "correcta": true },
+            { "texto": "Acelera la convergencia de SGD frente a funciones como sigmoid o tanh.", "correcta": true },
+            { "texto": "Garantiza que la salida siempre esté acotada entre -1 y 1.", "correcta": false }
+          ]
+        },
+        {
+          "id": "4_7",
+          "texto": "Marca todas las respuestas correctas acerca de la inicialización de parámetros en una red neuronal:",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "La inicialización de biases no es muy crítica una vez se ha definido una correcta inicialización de weights.", "correcta": true },
+            { "texto": "Siempre se deben inicializar todos los pesos exactamente en 0 para evitar sesgos.", "correcta": false },
+            { "texto": "No es buena idea inicializar todos los pesos con el mismo valor.", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_8",
+          "texto": "Si inicializamos todos los pesos w con valores muy grandes en valor absoluto:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "El uso de unidades sigmoid y tanh no sería una buena idea, ya que se encontrarán casi todo el tiempo en régimen de saturación.", "correcta": true },
+            { "texto": "La red neuronal convergerá de inmediato en la primera época.", "correcta": false },
+            { "texto": "Las unidades ReLU se apagarán permanentemente (dying ReLU) en el 100% de los casos.", "correcta": false }
+          ]
+        },
+        {
+          "id": "4_9",
+          "texto": "¿Cuáles de las siguientes son técnicas de inicialización de parámetros? (Marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Inicialización Xavier.", "correcta": true },
+            { "texto": "Inicialización Sigma.", "correcta": false },
+            { "texto": "Inicialización aleatoria.", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_10",
+          "texto": "Batch normalization es una técnica que mejora el entrenamiento de redes neuronales:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "4_11",
+          "texto": "Batch normalization se ejecuta después de aplicar la función de activación:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_12",
+          "texto": "Batch normalization reduce la dependencia del entrenamiento en la inicialización de parámetros:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "4_13",
+          "texto": "Marca todas las respuestas correctas sobre SGD + Momentum:",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Es matemáticamente más lento y pesado que el Descenso de Gradiente original.", "correcta": false },
+            { "texto": "El vector velocidad con Momentum ayuda a escapar de mínimos locales y puntos de silla.", "correcta": true },
+            { "texto": "El vector velocidad contiene información sobre los gradientes de todos los pasos anteriores.", "correcta": true },
+            { "texto": "Rho=0 en el vector de velocidad hace que SGD + Momentum sea idéntico a SGD.", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_14",
+          "texto": "¿Cuáles de las siguientes opciones son variantes del algoritmo del descenso del gradiente?:",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "SGD con Momentum.", "correcta": true },
+            { "texto": "SGD Backprop Completo.", "correcta": false },
+            { "texto": "SGD Nesterov.", "correcta": true }
+          ]
+        },
+        {
+          "id": "4_15",
+          "texto": "¿Qué ocurre con los gradientes en las neuronas desactivadas por dropout?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Los gradientes se multiplican por la tasa de dropout y se transmiten atenuados.", "correcta": false },
+            { "texto": "Los gradientes transmitidos hacia atrás son 0 en estas neuronas, ya que la función de salida de la neurona es constante y vale 0.", "correcta": true },
+            { "texto": "Los gradientes se invierten, cambiando de signo.", "correcta": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_5",
+      "titulo": "Micro test 5",
+      "preguntas": [
+        {
+          "id": "5_1",
+          "texto": "Las redes neuronales convolucionales tienen un tipo de capas que se llaman capas maxpooling:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_2",
+          "texto": "Las capas de convolución sirven para disminuir la dimensionalidad de las imágenes:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_3",
+          "texto": "En las redes neuronales convolucionales existen dos técnicas llamadas Data Augmentation y Transfer learning que permiten mejorar la precisión de las redes neuronales convolucionales:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_4",
+          "texto": "Clasificar imágenes mediante el uso de redes neuronales convencionales con fully connected layers:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Es el enfoque más moderno y eficiente en la actualidad.", "correcta": false },
+            { "texto": "Se vuelve complicado computacionalmente al aumentar el tamaño de las imágenes.", "correcta": true },
+            { "texto": "Solo es posible si las imágenes están en escala de grises.", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_5",
+          "texto": "Cuando movemos un filtro por la imagen aplicando convoluciones:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Los parámetros de un filtro varían en función del píxel central que se esté analizando.", "correcta": false },
+            { "texto": "El filtro cambia de tamaño dinámicamente según la región de interés.", "correcta": false },
+            { "texto": "Los parámetros de un filtro son siempre los mismos para toda la imagen.", "correcta": true }
+          ]
+        },
+        {
+          "id": "5_6",
+          "texto": "Las max pooling layers:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Tienen miles de parámetros entrenables que la red debe optimizar.", "correcta": false },
+            { "texto": "No tienen hiperparámetros de ninguna clase.", "correcta": false },
+            { "texto": "Tienen dos hiperparámetros y no tienen parámetros.", "correcta": true }
+          ]
+        },
+        {
+          "id": "5_7",
+          "texto": "Durante backpropagation, en la max pooling layer:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "El gradiente se divide uniformemente entre todos los valores de entrada de ese pool.", "correcta": false },
+            { "texto": "El gradiente se propaga solo al valor de entrada que tenía el máximo valor durante el forward pass.", "correcta": true },
+            { "texto": "El gradiente se anula completamente deteniendo el aprendizaje.", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_8",
+          "texto": "El volumen resultante de aplicar max pooling con pools de 2x2 y stride 2 sobre un volumen de tamaño 24x24x24 es:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "12x12x24.", "correcta": true },
+            { "texto": "24x24x12.", "correcta": false },
+            { "texto": "6x6x24.", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_9",
+          "texto": "El volumen resultante de aplicar una capa convolucional con 16 filtros de tamaño 2x2 y stride 1 sobre un volumen de tamaño 5x5x4 es:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "5x5x16.", "correcta": false },
+            { "texto": "4x4x16.", "correcta": true },
+            { "texto": "2x2x16.", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_10",
+          "texto": "El volumen resultante de aplicar una capa convolucional con 16 filtros de tamaño 2x2 y stride 2 sobre un volumen de tamaño 5x5x4 es:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "4x4x16.", "correcta": false },
+            { "texto": "2x2x16.", "correcta": false },
+            { "texto": "Ninguna de las anteriores, las dimensiones no tienen sentido.", "correcta": true }
+          ]
+        },
+        {
+          "id": "5_11",
+          "texto": "¿Cuál de las siguientes funciones de Keras se usa en el data augmentation?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "DataAugmenterKeras.", "correcta": false },
+            { "texto": "ImageDataGenerator.", "correcta": true },
+            { "texto": "ImageScaler2D.", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_12",
+          "texto": "¿Cuál es la definición más correcta de data augmentation?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Consiste en descargar grandes volúmenes de datos adicionales desde internet para balancear clases minoritarias.", "correcta": false },
+            { "texto": "El data augmentation consiste en realizar transformaciones o pequeñas perturbaciones aleatorias de una imagen, de manera que obtenemos nuevas imágenes con las que entrenar.", "correcta": true },
+            { "texto": "Es el proceso de reducir la resolución de las imágenes para que entren más datos en un solo batch.", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_13",
+          "texto": "Transfer learning es apropiado cuando no disponemos de suficientes datos y tenemos un problema similar al de datasets como ImageNet:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "5_14",
+          "texto": "Transfer learning no puede aprovechar las representaciones obtenidas en otro problema rico en datos:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "5_15",
+          "texto": "Transfer learning permite entrenar CNN complejas con relativamente pocos datos:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_6",
+      "titulo": "Micro test 6",
+      "preguntas": [
+        {
+          "id": "6_1",
+          "texto": "Uno de los elementos clave cuando se trata de estudiar el procesamiento del lenguaje natural, son las representaciones del lenguaje:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "6_2",
+          "texto": "Los Word vector son una representación antigua y con muy poca precisión:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "6_3",
+          "texto": "La salida del algoritmo Word2vec son los Word vectors:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "6_4",
+          "texto": "Una base de datos de palabras del estilo de WordNet (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Está construida por humanos.", "correcta": true },
+            { "texto": "Es generada automáticamente por redes neuronales recurrentes.", "correcta": false },
+            { "texto": "Permite obtener sinónimos y antónimos de palabras mediante grupos y reglas definidos por humanos.", "correcta": true }
+          ]
+        },
+        {
+          "id": "6_5",
+          "texto": "Bag-of-words (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Proporciona una representación continua y densa del texto, ideal para capturar la semántica profunda.", "correcta": false },
+            { "texto": "Proporciona una representación discreta del texto.", "correcta": true },
+            { "texto": "Asigna 0 a los elementos no presentes del vocabulario en el vector resultante.", "correcta": true }
+          ]
+        },
+        {
+          "id": "6_6",
+          "texto": "Un word vector:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Es una representación discreta one-hot donde solo un valor es 1 y el resto es 0.", "correcta": false },
+            { "texto": "Es una representación distribuida de una palabra.", "correcta": true },
+            { "texto": "Es un grafo de dependencias gramaticales de la oración.", "correcta": false }
+          ]
+        },
+        {
+          "id": "6_7",
+          "texto": "El tamaño de window o contexto m:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Se aprende de forma autónoma durante el entrenamiento del modelo por retropropagación.", "correcta": false },
+            { "texto": "Es un hiperparámetro del modelo word2vec y se elige antes de entrenar el modelo.", "correcta": true },
+            { "texto": "Determina el número máximo de capas ocultas en la red.", "correcta": false }
+          ]
+        },
+        {
+          "id": "6_8",
+          "texto": "Word2vec utiliza como datos:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Imágenes y sus subtítulos correspondientes.", "correcta": false },
+            { "texto": "Un conjunto de textos.", "correcta": true },
+            { "texto": "Únicamente diccionarios formalizados estructurados en pares de sinónimos.", "correcta": false }
+          ]
+        },
+        {
+          "id": "6_9",
+          "texto": "Los word vectors resultantes de word2vec:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Carecen de contexto y no permiten identificar palabras equivalentes.", "correcta": false },
+            { "texto": "Codifican una representación de las palabras con ciertos valores semánticos, de manera que pueden calcularse palabras similares a otras y detectar relaciones entre ellas.", "correcta": true },
+            { "texto": "Solo representan la frecuencia de aparición de cada palabra ordenadas alfabéticamente.", "correcta": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_7",
+      "titulo": "Micro test 7",
+      "preguntas": [
+        {
+          "id": "7_1",
+          "texto": "Las redes neuronales recurrentes tienen un estado interno llamado hidden state que funciona como una memoria:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "7_2",
+          "texto": "Tanto el input como el output de las redes neuronales recurrentes son secuencias de texto o numéricas:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "7_3",
+          "texto": "Las LSTM son una versión mejorada de las RNN debido a los problemas que estas tienen durante su entrenamiento:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "7_4",
+          "texto": "En un problema de traducción automática:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Tenemos una secuencia de entrada y una única etiqueta o clase discreta de salida.", "correcta": false },
+            { "texto": "Procesamos las palabras de forma independiente ignorando su orden de aparición.", "correcta": false },
+            { "texto": "Tenemos una secuencia de entrada y producimos una secuencia de salida.", "correcta": true }
+          ]
+        },
+        {
+          "id": "7_5",
+          "texto": "En una vanilla RNN, los parámetros a aprender en la red son:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Únicamente la matriz W xh asociada al input.", "correcta": false },
+            { "texto": "Las matrices W hh, W xh y W hy.", "correcta": true },
+            { "texto": "Solo los tensores correspondientes a las compuertas de olvido (forget gates).", "correcta": false }
+          ]
+        },
+        {
+          "id": "7_6",
+          "texto": "El vector de hidden state ht:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Es el resultado final que se presenta directamente al usuario sin pasar por más transformaciones.", "correcta": false },
+            { "texto": "Es un vector constante y determinista que no se actualiza durante la secuencia temporal.", "correcta": false },
+            { "texto": "Es una representación interna en forma de vector que codifica los estados por los que la red ha pasado y las inputs que ha ido viendo en el tiempo.", "correcta": true }
+          ]
+        },
+        {
+          "id": "7_7",
+          "texto": "¿Qué ventajas puede tener utilizar word vectors en vez de representaciones one-hot como entrada en una red recurrente? (Marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Si el vocabulario es muy grande, una representación discreta como la one-hot da lugar a vectores de entrada muy grandes, mientras que una densa como word vectors permite un vector compacto.", "correcta": true },
+            { "texto": "Las representaciones one-hot consumen menos memoria si el vocabulario supera los 100 mil elementos.", "correcta": false },
+            { "texto": "Los word vectors anulan la necesidad de entrenar los pesos internos de la red.", "correcta": false }
+          ]
+        },
+        {
+          "id": "7_8",
+          "texto": "Gradient clipping:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Controla la magnitud del gradiente durante backpropagation. Si este se hace muy grande, se reduce su magnitud para evitar exploding gradients.", "correcta": true },
+            { "texto": "Multiplica los gradientes cercanos a cero por un escalar gigante para solucionar el vanishing gradient problem.", "correcta": false },
+            { "texto": "Elimina los gradientes de la primera capa para congelar sus pesos permanentemente.", "correcta": false }
+          ]
+        },
+        {
+          "id": "7_9",
+          "texto": "La arquitectura LSTM (marca las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Surge como una arquitectura que trata de modelar con éxito relaciones temporales de larga distancia.", "correcta": true },
+            { "texto": "Reemplaza el uso de funciones no lineales utilizando solo transformaciones puramente afines.", "correcta": false },
+            { "texto": "Utiliza tanto sigmoids como tanhs en sus representaciones internas.", "correcta": true },
+            { "texto": "Soluciona el problema de los vanishing gradients.", "correcta": true }
+          ]
+        },
+        {
+          "id": "7_10",
+          "texto": "Al apilar RNN:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Los inputs se dividen y envían en paralelo a cada una de las capas al mismo tiempo.", "correcta": false },
+            { "texto": "Las salidas de cada time step de la primera RNN son las entradas de la siguiente RNN.", "correcta": true },
+            { "texto": "Se suma aritméticamente el vector de salida de cada RNN al final del procesamiento.", "correcta": false }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_8",
+      "titulo": "Micro test 8",
+      "preguntas": [
+        {
+          "id": "8_1",
+          "texto": "Existen tres tipos de aprendizaje automático: el aprendizaje supervisado, el aprendizaje no supervisado y el aprendizaje por refuerzo:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_2",
+          "texto": "Los problemas de aprendizaje por refuerzo se modelan matemáticamente usando cadenas de Markov:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_3",
+          "texto": "El algoritmo Deep Q-Learning es un tipo mixto de red neuronal convolucional y aprendizaje por refuerzo:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_4",
+          "texto": "En reinforcement learning:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "El sistema analiza bases de datos históricas para clasificar entradas en categorías predefinidas con exactitud.", "correcta": false },
+            { "texto": "Un agente está en un entorno y trata de aprender las acciones que maximizan las recompensas en cada estado posible.", "correcta": true },
+            { "texto": "El algoritmo agrupa datos sin etiquetas basándose en métricas de distancia y similitud.", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_5",
+          "texto": "¿Cuál de los siguientes problemas está definido como un problema de reinforcement learning?:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Un sistema clasifica fotografías médicas en patologías benignas o malignas.", "correcta": false },
+            { "texto": "Un helicóptero autónomo puede realizar acciones como mover las aspas y cambiar la dirección. Recibe rewards positivas si se mantiene en vuelo y negativas si cae al suelo.", "correcta": true },
+            { "texto": "Agrupar perfiles de usuarios de redes sociales en clusters para dirigir campañas de publicidad de forma eficiente.", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_6",
+          "texto": "La value function V está asociada a una policy π y la trayectoria que definen las acciones de esta policy:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_7",
+          "texto": "Q-learning a partir de value iteration converge mejor a mayor número de acciones:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "8_8",
+          "texto": "El entorno o environment en un problema de reinforcement learning nos da:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Únicamente el valor absoluto del reward final al término del episodio.", "correcta": false },
+            { "texto": "Un nuevo estado St+1 a partir del estado y la acción at realizada por el agente.", "correcta": true },
+            { "texto": "La política óptima precalculada de forma analítica antes de que el agente realice su primera acción.", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_9",
+          "texto": "En el algoritmo Deep Q-Learning visto en clase, la red neuronal tiene una salida por cada acción, en vez de representar la acción como input. Esto es así porque:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Podemos obtener todos los Q-values para un estado con un solo forward pass.", "correcta": true },
+            { "texto": "Evita el problema del sobreajuste introduciendo un cuello de botella informacional.", "correcta": false },
+            { "texto": "La arquitectura de la red no soporta vectores combinados de estado y acción en la capa de entrada.", "correcta": false }
+          ]
+        },
+        {
+          "id": "8_10",
+          "texto": "El estado en Deep Q-Learning aplicado a videojuegos Atari es:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "La representación binaria de la memoria RAM interna de la consola Atari.", "correcta": false },
+            { "texto": "Las coordenadas exactas X e Y de cada entidad renderizada en pantalla.", "correcta": false },
+            { "texto": "Las imágenes del juego que ve un jugador (dispuestas en conjuntos de 4 frames seguidos).", "correcta": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_9",
+      "titulo": "Micro test 9",
+      "preguntas": [
+        {
+          "id": "9_1",
+          "texto": "Existe una gran diferencia entre el rendimiento de las GPU y las CPU en el entrenamiento de algoritmos de aprendizaje profundo:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "9_2",
+          "texto": "La velocidad de la red no es un factor a tener en cuenta en la efectividad del entrenamiento de redes neuronales con GPU:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "9_3",
+          "texto": "El model parallelism y el data parallelism son dos dataset típicos para practicar con el entrenamiento con GPU:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "9_4",
+          "texto": "Las GPU (marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Están optimizadas para realizar ciertas operaciones con números de coma flotante. Estas operaciones pueden ser utilizadas tanto para gráficos como para computación numérica.", "correcta": true },
+            { "texto": "Son componentes diseñados para agilizar exclusivamente el tiempo de ejecución secuencial limitando el flujo de instrucciones.", "correcta": false },
+            { "texto": "Han permitido disminuir el tiempo de entrenamiento de las redes profundas en gran medida.", "correcta": true }
+          ]
+        },
+        {
+          "id": "9_5",
+          "texto": "¿Cuáles son las diferencias entre una CPU y una GPU? (Marca todas las respuestas correctas):",
+          "tipo": "seleccion_multiple",
+          "opciones": [
+            { "texto": "Las GPU tienen un número mucho mayor de cores.", "correcta": true },
+            { "texto": "Las CPU superan ampliamente a las GPU en la ejecución masiva de cálculos paralelos densos.", "correcta": false },
+            { "texto": "Las GPU tienen memoria RAM propia, mientras que las CPU utilizan la memoria del sistema.", "correcta": true },
+            { "texto": "Las GPU están optimizadas para grandes anchos de banda de memoria, mientras que las CPU lo están para conseguir latencias bajas al leer de memoria.", "correcta": true }
+          ]
+        },
+        {
+          "id": "9_6",
+          "texto": "En una multiplicación de matrices con GPU:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "La GPU delega las multiplicaciones a la CPU y se reserva estrictamente para renderizar el resultado final.", "correcta": false },
+            { "texto": "La GPU lee las matrices a multiplicar de memoria y utiliza sus múltiples cores para obtener los valores resultantes de manera paralela, calculando en cada core un producto escalar.", "correcta": true },
+            { "texto": "La GPU calcula cada elemento de la matriz secuencialmente con su procesador principal a muy alta velocidad de reloj.", "correcta": false }
+          ]
+        },
+        {
+          "id": "9_7",
+          "texto": "La value function V está asociada a una policy π y la trayectoria que definen las acciones de esta policy:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "9_8",
+          "texto": "A partir de Q es imposible calcular la optimal policy π:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "9_9",
+          "texto": "Q-learning a partir de value iteration converge mejor a mayor número de acciones:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_10",
+      "titulo": "Micro test 10",
+      "preguntas": [
+        {
+          "id": "10_1",
+          "texto": "Desplegar un sistema de aprendizaje en la nube es un proceso sencillo:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "10_2",
+          "texto": "El batching durante el tiempo de servicio (serving time):",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Es una práctica prohibida ya que colapsa la latencia individual sin otorgar ningún beneficio.", "correcta": false },
+            { "texto": "En sistemas con un gran número de requests por segundo permite combinar varias a la vez y calcular la salida más rápido que si se fuera una a una.", "correcta": true },
+            { "texto": "Únicamente sirve en la etapa de entrenamiento y no tiene uso alguno en el despliegue a producción.", "correcta": false }
+          ]
+        },
+        {
+          "id": "10_3",
+          "texto": "La concurrencia al servir un modelo en producción:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Permite aumentar el número total de requests por segundo que pueden ser respondidas.", "correcta": true },
+            { "texto": "Disminuye considerablemente el throughput del sistema forzando la cola de procesamiento.", "correcta": false },
+            { "texto": "Implica restringir las llamadas concurrentes para proteger la integridad del modelo.", "correcta": false }
+          ]
+        },
+        {
+          "id": "10_4",
+          "texto": "Un balanceador de carga (load balancer):",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Entrena el modelo distribuyendo los pesos entre varias redes neuronales más pequeñas.", "correcta": false },
+            { "texto": "Almacena los datos persistentemente en un cluster de bases de datos distribuidas.", "correcta": false },
+            { "texto": "Ninguna de las anteriores.", "correcta": true }
+          ]
+        },
+        {
+          "id": "10_5",
+          "texto": "En la etapa de inferencia de un modelo, se ejecuta:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Tanto el forward pass como el algoritmo de backpropagation para auto-ajustarse en tiempo real.", "correcta": false },
+            { "texto": "Solo el algoritmo de cálculo de pérdida (loss function) descartando los pesos de las capas.", "correcta": false },
+            { "texto": "Solo el forward pass de una red.", "correcta": true }
+          ]
+        },
+        {
+          "id": "10_6",
+          "texto": "El uso de proveedores de servicios en la nube:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Impone un límite rígido a los lenguajes de programación obligando a utilizar solo lenguajes nativos del proveedor.", "correcta": false },
+            { "texto": "Facilita el desarrollo de soluciones informáticas abstrayendo a los desarrolladores de la complejidad de instalar y mantener complejos sistemas de hardware.", "correcta": true },
+            { "texto": "Aumenta la necesidad de mantener equipos robustos on-premise en las instalaciones de los clientes.", "correcta": false }
+          ]
+        },
+        {
+          "id": "10_7",
+          "texto": "El uso de APIs de inteligencia artificial preparadas en la nube:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Puede ser útil cuando necesitamos resolver un problema específico. Por ejemplo, queremos convertir audio a texto, para lo cual existen muchas soluciones disponibles.", "correcta": true },
+            { "texto": "Resulta siempre más ineficiente y costoso que entrenar el propio modelo sin importar la tarea en cuestión.", "correcta": false },
+            { "texto": "Exige poseer licencias comerciales complejas y acceso físico a los servidores del proveedor.", "correcta": false }
+          ]
+        },
+        {
+          "id": "10_8",
+          "texto": "Entrenar un modelo exclusivamente con un subconjunto restringido de la población puede provocar training-serving skew:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "10_9",
+          "texto": "Una continuous training pipeline previene fallos como el training-serving skew:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "10_10",
+          "texto": "Comprobar que las distribuciones de datos de entrenamiento y servicio sean coincidentes permite evitar comportamientos inestables en subpoblaciones específicas:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micro_test_11",
+      "titulo": "Micro test 11",
+      "preguntas": [
+        {
+          "id": "11_1",
+          "texto": "Un ejemplo de red neuronal generativa son las GAN:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "11_2",
+          "texto": "Las GAN están formadas por dos redes neuronales, que son el generador y el discriminador:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "11_3",
+          "texto": "El few-shot learning es un tipo de método de los conocidos como meta-learning:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "11_4",
+          "texto": "Con un modelo generativo:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Se persigue únicamente agrupar los datos históricos en clusters diferenciados (clustering).", "correcta": false },
+            { "texto": "Podemos generar nuevos ejemplos de datos a partir de lo aprendido con los datos de entrenamiento.", "correcta": true },
+            { "texto": "Convertimos conjuntos de datos de alta dimensionalidad en espacios latentes de menor tamaño.", "correcta": false }
+          ]
+        },
+        {
+          "id": "11_5",
+          "texto": "Las Generative Adversarial Networks:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Establecen funciones de coste precalculadas utilizando descenso de gradiente analítico.", "correcta": false },
+            { "texto": "Utilizan aprendizaje estrictamente supervisado con etiquetas robustas.", "correcta": false },
+            { "texto": "Modelan implícitamente una función de densidad.", "correcta": true }
+          ]
+        },
+        {
+          "id": "11_6",
+          "texto": "Al entrenar una GAN:",
+          "tipo": "opcion_unica",
+          "opciones": [
+            { "texto": "Solo mejora la generator network, mientras que el discriminador permanece estático para proveer una referencia constante.", "correcta": false },
+            { "texto": "El discriminador entrena hasta saturarse y la generator network toma su lugar como clasificador principal.", "correcta": false },
+            { "texto": "Ambas mejoran con el tiempo. La generator network aprende a obtener resultados más parecidos a los datos reales, mientras que la discriminator network aprende a distinguir mejor, forzando a su vez a la primera a mejorar con el tiempo.", "correcta": true }
+          ]
+        },
+        {
+          "id": "11_7",
+          "texto": "El resultado de interés al entrenar una GAN es principalmente la discriminator network, que nos permite distinguir inputs falsos:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        },
+        {
+          "id": "11_8",
+          "texto": "En una generator network podemos generar imágenes distintas cambiando los valores del input, y si introducimos distintos valores aleatorios de entrada se tendrán distintas imágenes de salida:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": true },
+            { "texto": "Falso", "correcta": false }
+          ]
+        },
+        {
+          "id": "11_9",
+          "texto": "En AutoML se intenta aprender una serie de hiperparámetros óptimos para un problema en concreto:",
+          "tipo": "verdadero_falso",
+          "opciones": [
+            { "texto": "Verdadero", "correcta": false },
+            { "texto": "Falso", "correcta": true }
+          ]
+        }
+      ]
+    }
+  ]
+}
