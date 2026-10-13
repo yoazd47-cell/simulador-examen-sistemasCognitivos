@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Simulador de Examen - Deep Learning</title>
+  
+  <!-- Hojas de estilo modulares -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <div id="app">
 
+    <!-- 1. PANTALLA PRINCIPAL: Selector de Micro Tests -->
+    <section id="screen-home" class="screen active">
+      <header class="app-header">
+        <h1 class="app-title">Simulador de Examen</h1>
+        <p class="app-subtitle">Aprendizaje Profundo & Redes Neuronales</p>
+      </header>
+
+      <main class="test-selector-container">
+        <div class="section-title-row">
+          <h2>Módulos Disponibles</h2>
+          <span id="tests-summary-badge" class="badge">11 Tests</span>
+        </div>
+        <div id="test-list" class="test-grid">
+          <!-- ui.js inyectará dinámicamente las tarjetas de cada micro test aquí -->
+        </div>
+      </main>
+    </section>
+
+    <!-- 2. PANTALLA DEL QUIZ: Interfaz de Preguntas -->
+    <section id="screen-quiz" class="screen">
+      <header class="quiz-header">
+        <button id="btn-exit-quiz" class="btn-icon" aria-label="Volver al menú">
+          &#8592; Salir
+        </button>
+        <span id="quiz-test-title" class="quiz-title-badge">Micro test</span>
+      </header>
+
+      <div class="progress-section">
+        <div class="progress-info">
+          <span id="question-counter">Pregunta 1 de 10</span>
+          <span id="quiz-score-preview">Aciertos: 0</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <main class="quiz-body">
+        <article class="question-card">
+          <div class="question-header">
+            <span id="question-type-badge" class="badge badge-type">Opción única</span>
+          </div>
+          <h2 id="question-text" class="question-text">Cargando pregunta...</h2>
+        </article>
+
+        <!-- Contenedor dinámico de opciones -->
+        <div id="options-container" class="options-container">
+          <!-- ui.js inyectará los botones de opciones aquí -->
+        </div>
+
+        <div id="feedback-banner" class="feedback-banner hidden">
+          <!-- Mensaje de retroalimentación inmediata -->
+        </div>
+      </main>
+
+      <footer class="quiz-footer">
+        <button id="btn-submit-action" class="btn-primary" disabled>
+          Comprobar respuesta
+        </button>
+      </footer>
+    </section>
+
+    <!-- 3. PANTALLA DE RESULTADOS -->
+    <section id="screen-results" class="screen">
+      <header class="results-header">
+        <h2>Examen Finalizado</h2>
+      </header>
+
+      <main class="results-body">
+        <div class="score-card">
+          <div class="score-ring">
+            <span id="final-percentage" class="score-percentage">0%</span>
+          </div>
+          <p id="score-summary-text" class="score-summary">Has respondido correctamente 0 de 0 preguntas</p>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="metric-box success">
+            <span class="metric-label">Correctas</span>
+            <span id="metric-correct" class="metric-value">0</span>
+          </div>
+          <div class="metric-box danger">
+            <span class="metric-label">Incorrectas</span>
+            <span id="metric-incorrect" class="metric-value">0</span>
+          </div>
+        </div>
+      </main>
+
+      <footer class="results-footer">
+        <button id="btn-retry-test" class="btn-primary">Reintentar este test</button>
+        <button id="btn-back-home" class="btn-secondary">Elegir otro test</button>
+      </footer>
+    </section>
+
+  </div>
+
+  <!-- Orquestador principal (módulo nativo ES6) -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
